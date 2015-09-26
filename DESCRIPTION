@@ -1,12 +1,12 @@
 Package: rtmapidoc
 Title: Scraper of the Remember the Milk API website
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("John", "Kowalski", email = "jowalski@gmail.com", role = c("aut", "cre"))
 Description: Scrapes the Remember the Milk API website for the purpose of providing documentation for the rtmr R package.
 Depends: R (>= 3.2.2)
 License: MIT + file LICENSE
 LazyData: true
 Imports: rvest, stringr, plyr
-Suggests: testthat
+Suggests: testthat, xml2
 URL: https://github.com/jowalski/rtmapidoc
 BugReports: https://github.com/jowalski/rtmapidoc/issues
