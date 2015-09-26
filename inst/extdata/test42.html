@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" xml:lang="en-US">
+<head>
+<title>Remember The Milk - Services / API / Methods / rtm.tasks.notes.delete</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="theme-color" content="#0060bf" />
+<link rel="shortcut icon" href="https://s3.rtmcdn.net/favicon3.ico" />
+<link rel="stylesheet" href="https://s2.rtmcdn.net/css/rtm.8.css" type="text/css" />
+</head>
+
+<body id="bd-services">
+
+<div id="topbar">&#13;
+	<div class="content">&#13;
+	<span class="login">&#13;
+          Already a member? <a class="login-link" href="/login/">Login</a>.      </span>&#13;
+  <table class="tbl-container">&#13;
+  <tr>&#13;
+    <td><span class="welcome"><b>Welcome!</b></span> </td>&#13;
+    <td><a href="#" onclick="this.blur(); langswitch.toggle(); langswitch.prevent(event)" style="text-decoration: none;"><u>English (US)</u> <img src="https://s1.rtmcdn.net/img/arr_switcher.png" class="switcher" alt="Language Switcher" /></a></td>&#13;
+  </tr>&#13;
+  <tr>&#13;
+    <td></td>&#13;
+    <td>&#13;
+    <script type="text/javascript"><![CDATA[<!--
+    var langswitch={'flip':function(e,close){if(e.style.display==='block'){e.style.display='none';}else if(!close){e.style.display='block';}},'toggle':function(ev,close){var e=document.getElementById('langswitchd');var f=document.getElementById('langswitchif');if(e&&f){langswitch.flip(e,close);langswitch.flip(f,close);}},'is_open':function(){var f=document.getElementById('langswitchd');return f.style.display==='block';},'close':function(ev){langswitch.stop(ev);langswitch.toggle(ev,true);},'stop':function(ev){ev||(ev=window.event);if(ev.stopPropagation){ev.stopPropagation();}else{ev.cancelBubble=true;}},'prevent':function(ev){ev||(ev=window.event);if(ev.preventDefault){ev.preventDefault();ev.stopPropagation();}else{ev.returnValue=false;ev.cancelBubble=true;}}};document.onclick=function(ev){if(langswitch.is_open(ev)){langswitch.close(ev);}};
+    -->]]></script>&#13;
+    <iframe width="110" height="390" style="border: 0pt none; z-index: 999; display: none;" id="langswitchif" class="langswitch" src="javascript:false"></iframe>&#13;
+    <div onclick="langswitch.stop(event)" id="langswitchd" class="langswitch" style="display: none;">&#13;
+          <a onclick="langswitch.close(event)" href="?hl=bs&amp;page=rtm.tasks.notes.delete">Bosanski</a>
+    <a onclick="langswitch.close(event)" href="?hl=ca&amp;page=rtm.tasks.notes.delete">Català</a>
+    <a onclick="langswitch.close(event)" href="?hl=cs&amp;page=rtm.tasks.notes.delete">Český</a>
+    <a onclick="langswitch.close(event)" href="?hl=da&amp;page=rtm.tasks.notes.delete">Dansk</a>
+    <a onclick="langswitch.close(event)" href="?hl=de&amp;page=rtm.tasks.notes.delete">Deutsch</a>
+    <a onclick="langswitch.close(event)" href="?hl=en-GB&amp;page=rtm.tasks.notes.delete">English (UK)</a>
+    <a onclick="langswitch.close(event)" href="?hl=en-US&amp;page=rtm.tasks.notes.delete">English (US)</a>
+    <a onclick="langswitch.close(event)" href="?hl=es&amp;page=rtm.tasks.notes.delete">Español</a>
+    <a onclick="langswitch.close(event)" href="?hl=eo&amp;page=rtm.tasks.notes.delete">Esperanto</a>
+    <a onclick="langswitch.close(event)" href="?hl=fr&amp;page=rtm.tasks.notes.delete">Français</a>
+    <a onclick="langswitch.close(event)" href="?hl=it&amp;page=rtm.tasks.notes.delete">Italiano</a>
+    <a onclick="langswitch.close(event)" href="?hl=lv&amp;page=rtm.tasks.notes.delete">Latviešu</a>
+    <a onclick="langswitch.close(event)" href="?hl=lt&amp;page=rtm.tasks.notes.delete">Lietuvių</a>
+    <a onclick="langswitch.close(event)" href="?hl=hu&amp;page=rtm.tasks.notes.delete">Magyar</a>
+    <a onclick="langswitch.close(event)" href="?hl=nl&amp;page=rtm.tasks.notes.delete">Nederlands</a>
+    <a onclick="langswitch.close(event)" href="?hl=no&amp;page=rtm.tasks.notes.delete">Norsk (Bokmål)</a>
+    <a onclick="langswitch.close(event)" href="?hl=nn&amp;page=rtm.tasks.notes.delete">Norsk (Nynorsk)</a>
+    <a onclick="langswitch.close(event)" href="?hl=pl&amp;page=rtm.tasks.notes.delete">Polski</a>
+    <a onclick="langswitch.close(event)" href="?hl=pt-BR&amp;page=rtm.tasks.notes.delete">Português (Brasil)</a>
+    <a onclick="langswitch.close(event)" href="?hl=pt-PT&amp;page=rtm.tasks.notes.delete">Português (Portugal)</a>
+    <a onclick="langswitch.close(event)" href="?hl=ro&amp;page=rtm.tasks.notes.delete">Română</a>
+    <a onclick="langswitch.close(event)" href="?hl=sq&amp;page=rtm.tasks.notes.delete">Shqip</a>
+    <a onclick="langswitch.close(event)" href="?hl=sv&amp;page=rtm.tasks.notes.delete">Svenska</a>
+    <a onclick="langswitch.close(event)" href="?hl=vi&amp;page=rtm.tasks.notes.delete">Tiếng Việt</a>
+    <a onclick="langswitch.close(event)" href="?hl=tr&amp;page=rtm.tasks.notes.delete">Türkçe</a>
+    <a onclick="langswitch.close(event)" href="?hl=ru&amp;page=rtm.tasks.notes.delete">Русский</a>
+    <a onclick="langswitch.close(event)" href="?hl=uk&amp;page=rtm.tasks.notes.delete">Українська</a>
+    <a onclick="langswitch.close(event)" href="?hl=zh-CN&amp;page=rtm.tasks.notes.delete">中文 (简体)</a>
+    <a onclick="langswitch.close(event)" href="?hl=zh-TW&amp;page=rtm.tasks.notes.delete">中文 (繁體)</a>
+    <a onclick="langswitch.close(event)" href="?hl=ja&amp;page=rtm.tasks.notes.delete">日本語</a>
+    <a onclick="langswitch.close(event)" href="?hl=ko&amp;page=rtm.tasks.notes.delete">한국어</a>
+    </div>&#13;
+    </td>&#13;
+  </tr>&#13;
+  </table>&#13;
+	</div>&#13;
+</div> <!-- /topbar -->&#13;
+&#13;
+&#13;
+<div id="topnav">&#13;
+  <div class="logo">&#13;
+    <a href="/"><img src="https://s4.rtmcdn.net/img/logo2.png" alt="Remember The Milk" id="topnav-logo" /></a>&#13;
+  </div>&#13;
+	<div class="content">&#13;
+		<ul>&#13;
+    <li class="top-nav-home"><a href="/">Home</a></li>&#13;
+    <li class="top-nav-signup"><a href="/signup/">Sign Up</a> (Free!)</li>&#13;
+    <li class="top-nav-services"><a href="/services/">Apps</a></li>&#13;
+    <li class="top-nav-blog"><a href="http://blog.rememberthemilk.com/">Blog</a></li>&#13;
+    <li class="top-nav-help"><a href="/help/">Help</a></li>&#13;
+		</ul>&#13;
+	</div>&#13;
+</div> <!-- /topnav -->&#13;
+
+
+<div id="pageheader">
+  <div class="content">
+    <h1><a href="/services/">Services</a> / <a href="/services/api/">API</a> / <a href="/services/api/methods/">Methods</a> / rtm.tasks.notes.delete</h1>
+  </div>
+</div> <!-- /pageheader -->
+
+
+<div id="container">
+  <div class="content">
+  
+<div id="api">
+
+<h2>Description</h2>
+<p>Deletes a note.</p>
+
+<h2>Authentication</h2>
+<p>This method requires authentication with <b>delete</b> permissions.</p>
+
+<h2>Timeline</h2>
+<p>This method requires a <a href="/services/api/timelines.rtm">timeline</a>.</p>
+
+<h2>Revertable</h2>
+<p>The effects of this method can be <a href="/services/api/methods/rtm.transactions.undo.rtm">undone</a>.</p>
+
+<h2>Arguments</h2>
+<dl>
+<dt><code>api_key</code> (Required)</dt>
+<dd>Your API application key. <a href="/services/api/keys.rtm">See here</a> for more details.</dd>
+<dt><code>timeline</code> (Required)</dt>
+<dd>The timeline within which to run a method. <a href="/services/api/timelines.rtm">See here</a> for more details.</dd>
+<dt><code>note_id</code> (Required)</dt>
+<dd>The id of the note to perform an action on.</dd>
+</dl>
+
+<h2>Example Response</h2>
+<p>(Returns an <code>ok</code> status if successful.)</p>
+
+
+<h2>Error Codes</h2>
+<dl>
+<dt><code>98: Login failed / Invalid auth token</code></dt>
+<dd>The login details or auth token passed were invalid.</dd>
+
+<dt><code>100: Invalid API Key</code></dt>
+<dd>The API key passed was not valid or has expired.</dd>
+
+<dt><code>105: Service currently unavailable</code></dt>
+<dd>The requested service is temporarily unavailable.</dd>
+
+<dt><code>111: Format "xxx" not found</code></dt>
+<dd>The requested response format was not found.</dd>
+
+<dt><code>112: Method "xxx" not found</code></dt>
+<dd>The requested method was not found.</dd>
+
+<dt><code>114: Invalid SOAP envelope</code></dt>
+<dd>The SOAP envelope sent in the request could not be parsed.</dd>
+
+<dt><code>115: Invalid XML-RPC Method Call</code></dt>
+<dd>The XML-RPC request document could not be parsed.</dd>
+
+<dt><code>300: Timeline invalid or not provided</code></dt>
+<dd>No timeline provided / Timeline invalid.</dd>
+
+<dt><code>350: note_id invalid or not provided</code></dt>
+<dd>No note_id provided / note_id invalid.</dd>
+
+</dl>
+</div>
+  </div>
+</div> <!-- /container-->
+
+&#13;
+<div id="footer">&#13;
+  <div id="footer-content">&#13;
+    <ul id="footer-nav">&#13;
+    <li class="footer-nav-accounts"><a href="/signup/">Accounts</a>&#13;
+      <ul>&#13;
+      <li><a href="/signup/">Sign Up (Free!)</a></li>&#13;
+      <li><a href="/login/">Login</a></li>&#13;
+      <li><a href="/tour/">Learn More</a></li>&#13;
+      <li><a href="/upgrade/">Upgrade to <img src="https://s3.rtmcdn.net/img/ico/ico_pro.gif" style="width: 20px; height: 11px; vertical-align: middle;" alt="Pro" /></a></li>&#13;
+      </ul>&#13;
+    </li>&#13;
+    <li class="footer-nav-about"><a href="/about/">About</a>&#13;
+      <ul>&#13;
+      <li><a href="/about/">Our Story</a></li>&#13;
+      <li><a href="/about/jobs.rtm">Jobs</a></li>&#13;
+      <li><a href="/about/press.rtm">Press</a></li>&#13;
+      <li><a href="http://blog.rememberthemilk.com/">English Blog</a></li>&#13;
+      <li><a href="http://blog.rememberthemilk.jp/">日本語 Blog</a></li>&#13;
+      <li><a href="/about/contact.rtm">Contact Us</a></li>&#13;
+      </ul>&#13;
+    </li>&#13;
+    <li class="footer-nav-services"><a href="/services/">Apps</a>&#13;
+      <ul>&#13;
+      <li><a href="/services/android/">Android</a></li>&#13;
+      <li><a href="/services/blackberry/">BlackBerry 10</a></li>&#13;
+      <li><a href="/services/email/">Email</a></li>&#13;
+      <li><a href="/services/evernote/">Evernote</a></li>&#13;
+      <li><a href="/services/gmail/">Gmail</a></li>&#13;
+      <li><a href="/services/googlecalendar/">Google Calendar</a></li>&#13;
+      <li><a href="/services/ipad/">iPad</a></li>&#13;
+      <li><a href="/services/iphone/">iPhone/iPod touch</a></li>&#13;
+      <li><a href="/services/milksync/outlook/">Microsoft Outlook</a></li>&#13;
+      <li><a href="/services/siri/">Siri</a></li>&#13;
+      <li><a href="/services/twitter/">Twitter</a></li>&#13;
+      <li><a href="/services/webapp/">Web app</a></li>&#13;
+      </ul>&#13;
+    </li>&#13;
+    <li class="footer-nav-forums"><a href="/forums/">Community</a>&#13;
+      <ul>&#13;
+      <li><a href="/forums/help/">Help Forum<!--Help--></a></li>&#13;
+      <li><a href="/forums/ideas/">Vote on Ideas<!--Ideas--></a></li>&#13;
+      <li><a href="/forums/tips/">Tips &amp; Tricks</a></li>&#13;
+      <li><a href="/services/tester/">Tester Program</a></li>&#13;
+      <li><a href="/services/translate/">Translations</a></li>&#13;
+      <li><a href="/services/api/">API</a></li>&#13;
+      </ul>&#13;
+    </li>&#13;
+    <li class="footer-nav-help"><a href="/help/">Help</a>&#13;
+      <ul>&#13;
+      <li><a href="/help/">Help Center</a></li>&#13;
+      <li><a href="/help/guide/">Getting Started</a></li>&#13;
+      <li><a href="http://status.rememberthemilk.com/">System Status</a></li>&#13;
+      <li><a href="/help/contact/">Help by Email</a></li>&#13;
+      <li class="footer-nav-help-social"><a href="http://twitter.com/rememberthemilk"><img src="https://s4.rtmcdn.net/img/ico_twitter_16.png" /></a><a href="http://www.facebook.com/rememberthemilk"><img src="https://s2.rtmcdn.net/img/ico_facebook_16.png" /></a><a href="http://google.com/+RememberTheMilk"><img src="https://s4.rtmcdn.net/img/ico_googleplus_16.png" /></a>&#13;
+      </li>&#13;
+      </ul>&#13;
+    </li>&#13;
+    </ul>&#13;
+    <div id="footer-legal">&#13;
+      © 2015 Remember The Milk <span class="divider">|</span> <a href="/help/terms.rtm">Terms of Use</a> <span class="divider">|</span> <a href="/help/privacy.rtm">Privacy Policy</a>&#13;
+    </div> <!-- /footer-legal -->&#13;
+  </div> <!-- /footer-content -->&#13;
+</div> <!-- /footer -->&#13;
+&#13;
+<script type="text/javascript"><![CDATA[
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-176427-3']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+]]></script>
+<script type="text/javascript"><![CDATA[
+if ('_rtm_start_rtt' in window) {
+(function(){function b(){window[c]=(new Date).getTime();var a=document.createElement("script");a.setAttribute("type","text/javascript");a.setAttribute("async","true");a.setAttribute("src",document.location.protocol+"//s4.rtmcdn.net/js/rtt.2.js");document.body.appendChild(a)}var c="_rtm_end_rtt",d=window.onload;window.onload=typeof window.onload!="function"?b:function(){d();b()}})();
+}
+]]></script>
+</body>
+</html>
