@@ -8,3 +8,5 @@ License: MIT + file LICENSE
 LazyData: true
 Imports: rvest, stringr, plyr
 Suggests: testthat
+URL: https://github.com/jowalski/rtmapidoc
+BugReports: https://github.com/jowalski/rtmapidoc/issues
